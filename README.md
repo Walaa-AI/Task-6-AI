@@ -5,6 +5,7 @@ Launch Simulation World
 In the previous SLAM section, TurtleBot3 World is used to create a map. The same Gazebo environment will be used for Navigation.
 
 $ export TURTLEBOT3_MODEL=waffle
+
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch.
 
 ![لقطة الشاشة 2022-08-14 043147](https://user-images.githubusercontent.com/107875617/184557913-acb30def-5cb3-4787-996d-d344e6dc7aee.jpg)
@@ -15,7 +16,8 @@ Run Navigation Node
 
 Open a new terminal from Remote PC with Ctrl + Alt + T and run the Navigation node.
 
-$ export TURTLEBOT3_MODEL=burger
+$ export TURTLEBOT3_MODEL=waffle
+
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
 
